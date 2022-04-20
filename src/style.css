@@ -1,0 +1,388 @@
+.App header .mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.App header .container a span {
+  color: whitesmoke;
+}
+.App #dash-1, .App #dash-2, .App #dash-3, .App #dash-lang {
+  width: 2px;
+  height: 50px;
+  background-color: rgba(191, 191, 191, 0.797);
+  transform: rotate(15deg);
+  transform-origin: top right;
+  margin-left: 10px;
+}
+.App .nav-link {
+  color: rgba(191, 191, 191, 0.797);
+}
+.App #intro .each-fade .image-container {
+  max-width: 100%;
+  background-size: cover;
+}
+.App #intro .each-fade .image-container img {
+  width: 100%;
+  height: 100vh;
+}
+.App #intro .each-fade h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.App #intro .indicators {
+  position: absolute;
+  bottom: 35%;
+  left: 0%;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 400;
+  padding: -1px;
+  max-width: 100%;
+  width: 50%;
+  margin: 50px 331px;
+}
+.App #intro .indicators li {
+  display: flex;
+  position: relative;
+  /* width: 100%; */
+  padding: 10px;
+  margin: 1px 60px;
+  flex-direction: row;
+}
+.App #intro .indicators li .each-slideshow-indicator:before {
+  /* top: 0; */
+  /* left: 0; */
+  width: 100px;
+  height: 3px;
+  border-radius: 5% !important;
+  content: "";
+  background: #f9fafb;
+  /* text-align: center; */
+  position: absolute;
+}
+.App .Body .Head {
+  background-color: #0f1a20;
+  display: flex;
+  max-width: 100% !important;
+  max-height: 100%;
+  height: 500px;
+}
+.App .Body .Head .text-logo {
+  position: relative;
+  left: 20%;
+  margin: -150px 43px 0;
+  z-index: 600;
+}
+.App .Body .Head .text-logo span {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
+.App .Body .Head .text-logo span h2 {
+  position: absolute;
+  /* top: 152%; */
+  /* left: 25%; */
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  z-index: 600;
+}
+.App .Body .Head .text-logo img {
+  max-height: 100%;
+  width: 250px;
+  height: 600px;
+  z-index: 500;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.App .Body .Head .container-text0 {
+  padding: 80px;
+  width: 50%;
+  margin: 0 240px;
+}
+.App .Body .Middle {
+  max-width: 100% !important;
+  background-color: #060a0d;
+  height: 600px;
+  position: relative;
+  top: 0;
+}
+.App .Body .Middle .rect {
+  background-color: black;
+  width: 70%;
+  height: 60%;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+.App .Body .Middle .rect .video {
+  position: relative;
+  bottom: 87px;
+  z-index: 600;
+  width: 84%;
+  height: 457px;
+  margin: auto;
+}
+.App .Body .Middle .rect .video div {
+  width: 900px !important;
+  height: 450px !important;
+}
+.App .Body .Middle .rect .video span {
+  text-align: center;
+  color: white;
+}
+.App .Body .Middle .rect .video svg {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(#4c65af 50%, rgba(76, 91, 175, 0.5) 50%);
+  display: block;
+  transform: rotate(0deg);
+  position: relative;
+  box-shadow: 0px 0px 10px 3px #dcdcdc;
+  border-radius: 30px;
+  animation: pulse 3s infinite;
+}
+@keyframes pulse {
+  0% {
+    height: 100px;
+    width: 100px;
+  }
+  25% {
+    height: 100px;
+    width: 100px;
+  }
+  50% {
+    height: 95px;
+    width: 95px;
+  }
+  75% {
+    height: 95px;
+    width: 95px;
+  }
+  100% {
+    height: 100px;
+    width: 100px;
+  }
+}
+.App .Body .Middle .rect .video svg:hover {
+  filter: brightness(1);
+  animation: bright 3s;
+}
+@keyframes bright {
+  from {
+    filter: brightness(0);
+  }
+  to {
+    filter: brightness(5);
+  }
+}
+.App .Body .Middle2-layout {
+  background-color: #0f1a20;
+  position: relative;
+  max-width: 100% !important;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+}
+.App .Body .Middle2-layout .Base {
+  background-color: #242e30;
+  width: 35%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.App .Body .Middle2-layout .Base .text {
+  position: absolute;
+  z-index: 400;
+  padding: 30px;
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+}
+.App .Body .Middle2-layout .Base .text:hover {
+  transform: scale(1.3);
+}
+.App .Body .Middle2-layout .Base .image1 {
+  position: absolute;
+  z-index: 300;
+  top: 2%;
+  left: 11%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.App .Body .Middle2-layout .Base .image1 img {
+  width: 650px;
+  height: 350px;
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+  filter: brightness(110%);
+}
+.App .Body .Middle2-layout .Base .image1 img:hover {
+  filter: brightness(100%);
+  transform: scale(1.3);
+}
+.App .Body .Middle2-layout .Base .image2 {
+  position: absolute;
+  z-index: 600;
+  top: 23%;
+  left: 30%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.App .Body .Middle2-layout .Base .image2 img {
+  width: 800px;
+  height: 400px;
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+  filter: brightness(110%);
+}
+.App .Body .Middle2-layout .Base .image2 img:hover {
+  filter: brightness(100%);
+  transform: scale(1.3);
+}
+.App .Body .Middle2-layout .Base .image2 h2 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: rgba(77, 16, 16, 0.43);
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.App .Body .Middle2-layout .Base .image3 {
+  position: absolute;
+  z-index: 300;
+  top: 53%;
+  left: 25%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.App .Body .Middle2-layout .Base .image3 img {
+  width: 450px;
+  height: auto;
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+  filter: brightness(110%);
+}
+.App .Body .Middle2-layout .Base .image3 img:hover {
+  filter: brightness(100%);
+  transform: scale(1.3);
+}
+.App .Body .Middle2-layout .title {
+  width: 250px;
+  height: 6%;
+  position: absolute;
+  bottom: 120px;
+  left: 42%;
+}
+.App .Body .Middle2-layout .title div {
+  width: 50%;
+  height: 5%;
+  z-index: 100;
+  margin: 0 auto;
+}
+.App .Body .Middle2-layout .title div h2 {
+  color: white;
+}
+.App .Body #Middle-end {
+  background-color: #060a0d;
+  max-width: 100% !important;
+}
+.App .Body #Middle-end div {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.App .Body #Middle-end div h1, .App .Body #Middle-end div h6 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.App .Body #Middle-end div .line-div {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+.App .Body #Middle-end div .form {
+  max-width: 100% !important;
+}
+.App .Body #Middle-end div .form form {
+  max-width: 100% !important;
+  max-height: 1000px !important;
+}
+.App .Body #Middle-end div .form form .input .column-1 {
+  padding-right: 10px;
+}
+.App .Body #Middle-end div .form form .input .column-2 {
+  padding-left: 10px;
+}
+.App .Body #Middle-end div .form form .input .column-2 .inner {
+  max-width: 100% !important;
+}
+.App .Body #Middle-end div .form form .input .column-2 .inner .div1 {
+  padding-right: 10px;
+}
+.App .Body #Middle-end div .form form .input .column-2 .inner .div2 {
+  padding-left: 10px;
+}
+.App .Body #Middle-end div .form form .privacy {
+  padding-bottom: 10px;
+}
+.App .Body #Middle-end div .form form .line-end {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+.App .Body #Middle-end div .form form .button {
+  border: 1px solid white;
+  background-color: rgba(15, 26, 32, 0.4823529412);
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px 95px;
+}
+.App .Body #Middle-end div .form form .button:hover {
+  border: 1px solid rgb(98, 96, 96);
+  color: rgb(140, 136, 136);
+}
+.App .Body #Footer footer .f-1 {
+  max-width: 100%;
+  width: 100%;
+  height: 150px;
+  background-color: #212325;
+}
+.App .Body #Footer footer .f-2 {
+  max-width: 100%;
+  width: 100%;
+  height: 50px;
+  background-color: #101112;
+}
+
+#header {
+  z-index: 1030 !important;
+  position: fixed;
+  top: 50%;
+  left: 70%;
+  z-index: 1;
+  width: 40%;
+  max-width: 40%;
+  background-color: #4f4343;
+  transform: rotate(90deg);
+}
+#header .progress-container {
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.408);
+}
+#header .progress-bar {
+  height: 1px;
+  background: white;
+  width: 0%;
+}
+
+/*# sourceMappingURL=style.css.map */

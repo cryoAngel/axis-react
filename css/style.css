@@ -1,0 +1,104 @@
+.App header .mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.App header .container a span {
+  color: whitesmoke;
+}
+.App #dash-1, .App #dash-2, .App #dash-3, .App #dash-lang {
+  width: 2px;
+  height: 50px;
+  background-color: rgba(191, 191, 191, 0.797);
+  transform: rotate(15deg);
+  transform-origin: top right;
+  margin-left: 10px;
+}
+.App .nav-link {
+  color: rgba(191, 191, 191, 0.797);
+}
+.App #intro .each-fade .image-container {
+  max-width: 100%;
+  background-size: cover;
+}
+.App #intro .each-fade .image-container img {
+  width: 100%;
+  height: 100vh;
+}
+.App #intro .each-fade h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.App #intro .indicators {
+  position: absolute;
+  bottom: 35%;
+  left: 0%;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 400;
+  padding: -1px;
+  max-width: 100%;
+  width: 50%;
+  margin: 50px 331px;
+}
+.App #intro .indicators li {
+  display: flex;
+  position: relative;
+  /* width: 100%; */
+  padding: 10px;
+  margin: 1px 60px;
+  flex-direction: row;
+}
+.App #intro .indicators li .each-slideshow-indicator:before {
+  /* top: 0; */
+  /* left: 0; */
+  width: 100px;
+  height: 3px;
+  border-radius: 5% !important;
+  content: "";
+  background: #f9fafb;
+  /* text-align: center; */
+  position: absolute;
+}
+.App .Body .Head {
+  background-color: #0f1a20;
+  display: flex;
+  max-width: 100% !important;
+}
+.App .Body .Head .text-logo {
+  position: relative;
+  left: 20%;
+  margin: -150px 43px 0;
+  z-index: 600;
+}
+.App .Body .Head .text-logo span {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
+.App .Body .Head .text-logo span h2 {
+  position: absolute;
+  /* top: 152%; */
+  /* left: 25%; */
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  z-index: 600;
+}
+.App .Body .Head .text-logo img {
+  max-height: 100%;
+  width: 250px;
+  height: 600px;
+  z-index: 500;
+}
+.App .Body .Head .container-text0 {
+  padding: 80px;
+  width: 50%;
+  margin: 0 240px;
+}
+
+/*# sourceMappingURL=style.css.map */
